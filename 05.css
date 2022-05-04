@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@font-face {
+    font-family: "playFirDisplay-Regular";
+    src: url(./PlayfairDisplay-Regular.ttf);
+}
+body {
+    margin: 0;
+    position: relative;
+}
+
+
+.main {
+    background-color: rgb(236, 238, 240);
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    position: absolute;
+    background-position: center;
+    height: 500px;
+    width: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 8px 18px 0px rgba(0, 0, 0, 0.39);
+    left: 270px;
+    top: 70px;
+    flex-direction: column;
+    
+
+
+}
+
+.image-header {
+    width: 790px;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: linear-gradient(
+    115deg,
+    rgba(27, 43, 53, 0.836),
+    rgba(28, 70, 70, 0.418)),
+    url(./photo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.section-two {
+    width: 790px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+ .image-header h1{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: rgb(240, 248, 255);
+     font-weight: bolder;
+     position: relative;
+     top:35%
+ }
+
+ .button-submit{
+    position: relative;
+    background-color: rgb(111, 180, 85); 
+    border: none;
+    border-radius:20px;
+    color:aliceblue;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 5px 8px 15px 0px rgba(0,0,0,0.29);
+    left: 200px;
+    bottom: 50px;
+    font-family:"playFirDisplay-Regular"
+    
+ }
+
+ .input{
+     display: flex;
+     border-top: none;
+     border-left: none;
+     border-right: none;
+     border-bottom: 2px  solid rgb(214, 214, 214);
+     padding: 8px;
+     width: 450px;
+     position: relative;
+     left: 200px;
+     height: 20px;
+     
+ }
+ .label{
+     color: rgb(145, 137, 137);
+     padding-right: 20px;
+     font-size: 17px;
+     font-family:"playFirDisplay-Regular" ;
+     position: relative;
+     left: 85px;
+     top: 35px;
+     font-weight:bolder;
+
+ }
+ ::placeholder{
+     font-family: 'Patrick Hand', cursive;
+     font-weight:bold;
+     font-size: 17px;
+     color: rgb(212, 201, 201);
+ }
+
+ a{
+     display: flex;
+     position: relative;
+     text-decoration: none;
+     color: rgb(145, 137, 137);
+     left: 550px;
+     bottom: 35px;
+     font-size: 14px;
+     font-family:"playFirDisplay-Regular" ;
+     font-weight:200;
+ }
+
+ .remember{
+     display: flex;
+     position: relative;
+     color: rgb(145, 137, 137);
+     left: 200px;
+     font-size: 14px;
+     bottom: 18px;
+     font-family:"playFirDisplay-Regular";
+     font-weight:200;
+     
+ }
+
