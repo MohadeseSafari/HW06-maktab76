@@ -1,0 +1,157 @@
+.background {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./photo_2022-05-04_10-28-21.jpg);
+    background-size: 1366px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    opacity: 10%;
+
+}
+
+.container {
+    width: 25%;
+    height: 70%;
+    background: #bd78ce;
+    background: -webkit-linear-gradient(to bottom, #748bb9, #B993D6);
+    background: linear-gradient(to bottom, #8CA6DB, #B993D6);
+    position: absolute;
+    left: 37%;
+    top: 18%;
+    box-shadow: 5px 8px 15px 0px rgba(0, 0, 0, 0.29);
+    border: 2px;
+    border-radius: 10px;
+    padding: 10px 30px 10px;
+    box-sizing: border-box;
+
+}
+
+.header {
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    height: 35%;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.icon {
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    position: relative;
+    width: 5rem;
+    height: 5rem;
+    left: 36%;
+}
+
+.icon i{
+    position:absolute;
+    right: 15px;
+    bottom: 5px;
+    padding: 20px 8px;
+    font-size: 2.2rem;
+    opacity: .8;
+}
+
+.header h1 {
+    position: relative;
+    margin-top: 20px;
+    left: 37%;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-weight:550;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main {
+    display: flex;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    left: 15px;
+    flex-direction: column;
+    
+}
+.icon2{
+    position: relative;
+    right:25px ;
+    top: 17px;
+    opacity: .7;
+}
+.check-box{
+    color: aliceblue;
+    font-style: oblique;
+    position:relative;
+    right: 13px;
+}
+
+.footer {
+    display: block;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 25%;
+    width: 40%;
+    flex-direction: column;
+    left: 80px;
+
+}
+
+.button-login {
+    display: block;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.7rem 2rem;
+    box-shadow: 5px 8px 15px 0px rgba(0, 0, 0, 0.29);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 4px;
+    position: relative;
+    top: 25px;
+}
+
+a[href="#"] {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 50%;
+
+}
+
+input[type="text"] {
+    margin-bottom: 1.7rem;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+input[type="password"] {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+
+}
+
+input[type="check-box"] {
+    color: white;
+    
+}
+
+::placeholder {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-style: oblique;
+}
